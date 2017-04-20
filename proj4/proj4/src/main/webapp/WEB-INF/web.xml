@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>Point_Polygon</display-name>
+    <description>
+        A servlet to count number of points inside a polygon
+    </description>
+
+    <servlet>
+        <servlet-name>Point_Polygon</servlet-name>
+        <servlet-class>csi403.Point_Polygon</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Point_Polygon</servlet-name>
+        <url-pattern>/Point_Polygon</url-pattern>
+    </servlet-mapping>
+
+</web-app>     
